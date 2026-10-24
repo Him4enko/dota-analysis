@@ -1,0 +1,45 @@
+{
+  "github": {
+    "failed": 0,
+    "docs": 901,
+    "updated_at": "2026-10-24T16:05:08+00:00"
+  },
+  "steam_search": {
+    "pages_ok": 75,
+    "pages_failed": 0,
+    "topics": 448,
+    "updated_at": "2026-10-24T16:05:08+00:00"
+  },
+  "steam_threads": {
+    "ok": 48,
+    "failed": 132,
+    "docs": 271,
+    "updated_at": "2026-10-24T16:05:08+00:00"
+  },
+  "arctic": {
+    "cells": 144,
+    "ok": 10,
+    "failed": 134,
+    "docs": 1000,
+    "updated_at": "2026-10-24T16:05:09+00:00"
+  },
+  "dota2ru": {
+    "threads_found": 20,
+    "threads_ok": 20,
+    "threads_failed": 0,
+    "docs": 304,
+    "updated_at": "2026-10-24T16:05:09+00:00"
+  },
+  "reddit_rss": {
+    "pages_ok": 0,
+    "failed": 16,
+    "docs": 0,
+    "updated_at": "2026-10-24T16:05:09+00:00"
+  },
+  "arctic_cache_import": {
+    "cache_files": 26,
+    "cached_rows_scanned": 2025,
+    "new_unique_documents": 755,
+    "updated_at": "2026-10-24T16:05:10+00:00"
+  }
+}

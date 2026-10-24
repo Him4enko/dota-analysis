@@ -1,0 +1,1590 @@
+{
+  "meta": {
+    "raw_documents": 3679,
+    "after_length_filter": 3620,
+    "after_date_filter": 3422,
+    "spam_removed": 26,
+    "exact_duplicates_removed": 41,
+    "near_duplicates_removed": 91,
+    "final_documents": 3264,
+    "relevant_docs": 2755,
+    "date_min": "2023-01-03",
+    "date_max": "2026-10-23",
+    "languages": {
+      "en": 2952,
+      "ru": 311,
+      "mixed": 1
+    },
+    "sources": {
+      "Reddit": 1714,
+      "GitHub (Dota 2 tracker)": 812,
+      "Steam Community": 478,
+      "Dota2.ru": 260
+    },
+    "source_types": {
+      "comment": 1714,
+      "issue": 812,
+      "forum_post": 260,
+      "thread": 249,
+      "thread_comment": 190,
+      "thread_op": 39
+    }
+  },
+  "corpus": {
+    "relevant": 2755,
+    "complaints": 782,
+    "complaint_share": 0.2838475499092559,
+    "wilson": [
+      0.26732180236649,
+      0.30097524631237477
+    ],
+    "by_source": {
+      "Dota2.ru": {
+        "n": 93,
+        "complaints": 23,
+        "share": 0.24731182795698925,
+        "ci": [
+          0.17082219153553632,
+          0.3438484818273836
+        ]
+      },
+      "GitHub (Dota 2 tracker)": {
+        "n": 704,
+        "complaints": 339,
+        "share": 0.4815340909090909,
+        "ci": [
+          0.44482519481165433,
+          0.5184434161519962
+        ]
+      },
+      "Reddit": {
+        "n": 1634,
+        "complaints": 292,
+        "share": 0.17870257037943696,
+        "ci": [
+          0.16088727346562956,
+          0.19802503496009657
+        ]
+      },
+      "Steam Community": {
+        "n": 324,
+        "complaints": 128,
+        "share": 0.3950617283950617,
+        "ci": [
+          0.3433589609331682,
+          0.44922370922511967
+        ]
+      }
+    },
+    "by_lang": {
+      "en": {
+        "n": 2632,
+        "complaints": 751,
+        "share": 0.28533434650455924,
+        "ci": [
+          0.26840516740497533,
+          0.3028892303599132
+        ]
+      },
+      "mixed": {
+        "n": 1,
+        "complaints": 0,
+        "share": 0.0,
+        "ci": [
+          0.0,
+          0.7934506856227626
+        ]
+      },
+      "ru": {
+        "n": 122,
+        "complaints": 31,
+        "share": 0.2540983606557377,
+        "ci": [
+          0.18517152014351645,
+          0.33803807578550626
+        ]
+      }
+    },
+    "by_stance": {
+      "neutral": 1843,
+      "complaint": 782,
+      "question": 109,
+      "positive": 21
+    },
+    "by_theme": {
+      "behavior_score": 1680,
+      "communication_score": 264,
+      "other": 207,
+      "toxicity": 164,
+      "mute_chat": 129,
+      "low_priority": 127,
+      "overwatch": 79,
+      "matchmaking": 57,
+      "bans": 38,
+      "false_reports": 10
+    },
+    "wilson_clustered": [
+      0.28953117942602186,
+      0.32534683716479135
+    ],
+    "deff": 1.082
+  },
+  "design": {
+    "icc": 0.1843,
+    "mean_cluster": 1.44,
+    "deff": 1.082,
+    "clusters": 1908,
+    "effective_n": 2546.6
+  },
+  "trend_std": {
+    "mann_kendall": {
+      "n": 16,
+      "s": 6,
+      "tau": 0.05,
+      "z": 0.225,
+      "p": 0.8218916912511594,
+      "trend": "no significant trend"
+    },
+    "ols": {
+      "n": 16,
+      "slope": 0.000307,
+      "se": 0.005967,
+      "ci": [
+        -0.011389,
+        0.012002
+      ],
+      "p": 0.9597518399481499,
+      "intercept": 0.3392,
+      "hac_lags": 3
+    },
+    "bootstrap": [
+      -0.013178565794456552,
+      0.009409107514087666
+    ],
+    "first": 0.19744552967693463,
+    "last": 0.29674501575888007
+  },
+  "series": {
+    "monthly": [
+      {
+        "month": "2023-01",
+        "n": 7,
+        "complaints": 2,
+        "relevant": 7,
+        "share": 0.2857142857142857
+      },
+      {
+        "month": "2023-02",
+        "n": 1,
+        "complaints": 0,
+        "relevant": 1,
+        "share": 0.0
+      },
+      {
+        "month": "2023-03",
+        "n": 97,
+        "complaints": 20,
+        "relevant": 97,
+        "share": 0.20618556701030927
+      },
+      {
+        "month": "2023-04",
+        "n": 99,
+        "complaints": 16,
+        "relevant": 99,
+        "share": 0.16161616161616163
+      },
+      {
+        "month": "2023-05",
+        "n": 4,
+        "complaints": 3,
+        "relevant": 4,
+        "share": 0.75
+      },
+      {
+        "month": "2023-06",
+        "n": 1,
+        "complaints": 0,
+        "relevant": 1,
+        "share": 0.0
+      },
+      {
+        "month": "2023-07",
+        "n": 10,
+        "complaints": 7,
+        "relevant": 10,
+        "share": 0.7
+      },
+      {
+        "month": "2023-08",
+        "n": 3,
+        "complaints": 0,
+        "relevant": 3,
+        "share": 0.0
+      },
+      {
+        "month": "2023-09",
+        "n": 106,
+        "complaints": 22,
+        "relevant": 106,
+        "share": 0.20754716981132076
+      },
+      {
+        "month": "2023-10",
+        "n": 101,
+        "complaints": 23,
+        "relevant": 101,
+        "share": 0.22772277227722773
+      },
+      {
+        "month": "2023-11",
+        "n": 31,
+        "complaints": 17,
+        "relevant": 31,
+        "share": 0.5483870967741935
+      },
+      {
+        "month": "2023-12",
+        "n": 32,
+        "complaints": 21,
+        "relevant": 32,
+        "share": 0.65625
+      },
+      {
+        "month": "2024-01",
+        "n": 10,
+        "complaints": 4,
+        "relevant": 10,
+        "share": 0.4
+      },
+      {
+        "month": "2024-02",
+        "n": 6,
+        "complaints": 2,
+        "relevant": 6,
+        "share": 0.3333333333333333
+      },
+      {
+        "month": "2024-03",
+        "n": 3,
+        "complaints": 1,
+        "relevant": 3,
+        "share": 0.3333333333333333
+      },
+      {
+        "month": "2024-04",
+        "n": 10,
+        "complaints": 5,
+        "relevant": 10,
+        "share": 0.5
+      },
+      {
+        "month": "2024-05",
+        "n": 15,
+        "complaints": 4,
+        "relevant": 15,
+        "share": 0.26666666666666666
+      },
+      {
+        "month": "2024-06",
+        "n": 10,
+        "complaints": 6,
+        "relevant": 10,
+        "share": 0.6
+      },
+      {
+        "month": "2024-07",
+        "n": 16,
+        "complaints": 9,
+        "relevant": 16,
+        "share": 0.5625
+      },
+      {
+        "month": "2024-08",
+        "n": 21,
+        "complaints": 10,
+        "relevant": 21,
+        "share": 0.47619047619047616
+      },
+      {
+        "month": "2024-09",
+        "n": 12,
+        "complaints": 5,
+        "relevant": 12,
+        "share": 0.4166666666666667
+      },
+      {
+        "month": "2024-10",
+        "n": 11,
+        "complaints": 6,
+        "relevant": 11,
+        "share": 0.5454545454545454
+      },
+      {
+        "month": "2024-11",
+        "n": 11,
+        "complaints": 2,
+        "relevant": 11,
+        "share": 0.18181818181818182
+      },
+      {
+        "month": "2024-12",
+        "n": 12,
+        "complaints": 8,
+        "relevant": 12,
+        "share": 0.6666666666666666
+      },
+      {
+        "month": "2025-01",
+        "n": 10,
+        "complaints": 5,
+        "relevant": 10,
+        "share": 0.5
+      },
+      {
+        "month": "2025-02",
+        "n": 13,
+        "complaints": 7,
+        "relevant": 13,
+        "share": 0.5384615384615384
+      },
+      {
+        "month": "2025-03",
+        "n": 15,
+        "complaints": 8,
+        "relevant": 15,
+        "share": 0.5333333333333333
+      },
+      {
+        "month": "2025-04",
+        "n": 11,
+        "complaints": 5,
+        "relevant": 11,
+        "share": 0.45454545454545453
+      },
+      {
+        "month": "2025-05",
+        "n": 21,
+        "complaints": 9,
+        "relevant": 21,
+        "share": 0.42857142857142855
+      },
+      {
+        "month": "2025-06",
+        "n": 16,
+        "complaints": 8,
+        "relevant": 16,
+        "share": 0.5
+      },
+      {
+        "month": "2025-07",
+        "n": 25,
+        "complaints": 13,
+        "relevant": 25,
+        "share": 0.52
+      },
+      {
+        "month": "2025-08",
+        "n": 22,
+        "complaints": 9,
+        "relevant": 22,
+        "share": 0.4090909090909091
+      },
+      {
+        "month": "2025-09",
+        "n": 121,
+        "complaints": 26,
+        "relevant": 121,
+        "share": 0.21487603305785125
+      },
+      {
+        "month": "2025-10",
+        "n": 126,
+        "complaints": 32,
+        "relevant": 126,
+        "share": 0.25396825396825395
+      },
+      {
+        "month": "2025-11",
+        "n": 24,
+        "complaints": 11,
+        "relevant": 24,
+        "share": 0.4583333333333333
+      },
+      {
+        "month": "2025-12",
+        "n": 18,
+        "complaints": 6,
+        "relevant": 18,
+        "share": 0.3333333333333333
+      },
+      {
+        "month": "2026-01",
+        "n": 25,
+        "complaints": 13,
+        "relevant": 25,
+        "share": 0.52
+      },
+      {
+        "month": "2026-02",
+        "n": 31,
+        "complaints": 16,
+        "relevant": 31,
+        "share": 0.5161290322580645
+      },
+      {
+        "month": "2026-03",
+        "n": 118,
+        "complaints": 29,
+        "relevant": 118,
+        "share": 0.2457627118644068
+      },
+      {
+        "month": "2026-04",
+        "n": 122,
+        "complaints": 21,
+        "relevant": 122,
+        "share": 0.1721311475409836
+      },
+      {
+        "month": "2026-05",
+        "n": 22,
+        "complaints": 11,
+        "relevant": 22,
+        "share": 0.5
+      },
+      {
+        "month": "2026-06",
+        "n": 39,
+        "complaints": 15,
+        "relevant": 39,
+        "share": 0.38461538461538464
+      },
+      {
+        "month": "2026-07",
+        "n": 38,
+        "complaints": 22,
+        "relevant": 38,
+        "share": 0.5789473684210527
+      },
+      {
+        "month": "2026-08",
+        "n": 66,
+        "complaints": 35,
+        "relevant": 66,
+        "share": 0.5303030303030303
+      },
+      {
+        "month": "2026-09",
+        "n": 273,
+        "complaints": 75,
+        "relevant": 273,
+        "share": 0.27472527472527475
+      },
+      {
+        "month": "2026-10",
+        "n": 970,
+        "complaints": 213,
+        "relevant": 970,
+        "share": 0.21958762886597938
+      }
+    ],
+    "quarterly": [
+      {
+        "quarter": "2023-Q1",
+        "n": 105,
+        "complaints": 22,
+        "share": 0.20952380952380953
+      },
+      {
+        "quarter": "2023-Q2",
+        "n": 104,
+        "complaints": 19,
+        "share": 0.18269230769230768
+      },
+      {
+        "quarter": "2023-Q3",
+        "n": 119,
+        "complaints": 29,
+        "share": 0.24369747899159663
+      },
+      {
+        "quarter": "2023-Q4",
+        "n": 164,
+        "complaints": 61,
+        "share": 0.3719512195121951
+      },
+      {
+        "quarter": "2024-Q1",
+        "n": 19,
+        "complaints": 7,
+        "share": 0.3684210526315789
+      },
+      {
+        "quarter": "2024-Q2",
+        "n": 35,
+        "complaints": 15,
+        "share": 0.42857142857142855
+      },
+      {
+        "quarter": "2024-Q3",
+        "n": 49,
+        "complaints": 24,
+        "share": 0.4897959183673469
+      },
+      {
+        "quarter": "2024-Q4",
+        "n": 34,
+        "complaints": 16,
+        "share": 0.47058823529411764
+      },
+      {
+        "quarter": "2025-Q1",
+        "n": 38,
+        "complaints": 20,
+        "share": 0.5263157894736842
+      },
+      {
+        "quarter": "2025-Q2",
+        "n": 48,
+        "complaints": 22,
+        "share": 0.4583333333333333
+      },
+      {
+        "quarter": "2025-Q3",
+        "n": 168,
+        "complaints": 48,
+        "share": 0.2857142857142857
+      },
+      {
+        "quarter": "2025-Q4",
+        "n": 168,
+        "complaints": 49,
+        "share": 0.2916666666666667
+      },
+      {
+        "quarter": "2026-Q1",
+        "n": 174,
+        "complaints": 58,
+        "share": 0.3333333333333333
+      },
+      {
+        "quarter": "2026-Q2",
+        "n": 183,
+        "complaints": 47,
+        "share": 0.2568306010928962
+      },
+      {
+        "quarter": "2026-Q3",
+        "n": 377,
+        "complaints": 132,
+        "share": 0.35013262599469497
+      },
+      {
+        "quarter": "2026-Q4",
+        "n": 970,
+        "complaints": 213,
+        "share": 0.21958762886597938
+      }
+    ],
+    "quarterly_std": [
+      {
+        "quarter": "2023-Q1",
+        "share_std": 0.19744552967693463,
+        "se": 0.034025831120754385,
+        "sources": 3,
+        "n": 105
+      },
+      {
+        "quarter": "2023-Q2",
+        "share_std": 0.26287431576687775,
+        "se": 0.0421773044630815,
+        "sources": 3,
+        "n": 104
+      },
+      {
+        "quarter": "2023-Q3",
+        "share_std": 0.2798431738300647,
+        "se": 0.04175316639908217,
+        "sources": 3,
+        "n": 119
+      },
+      {
+        "quarter": "2023-Q4",
+        "share_std": 0.3415446974027431,
+        "se": 0.03398243938040416,
+        "sources": 3,
+        "n": 164
+      },
+      {
+        "quarter": "2024-Q1",
+        "share_std": 0.36721789883268485,
+        "se": 0.11303171506192689,
+        "sources": 2,
+        "n": 19
+      },
+      {
+        "quarter": "2024-Q2",
+        "share_std": 0.46970539188438026,
+        "se": 0.08210734186031964,
+        "sources": 2,
+        "n": 35
+      },
+      {
+        "quarter": "2024-Q3",
+        "share_std": 0.5376416849940788,
+        "se": 0.09950973616431745,
+        "sources": 2,
+        "n": 49
+      },
+      {
+        "quarter": "2024-Q4",
+        "share_std": 0.35345801430902474,
+        "se": 0.06146708596996833,
+        "sources": 2,
+        "n": 34
+      },
+      {
+        "quarter": "2025-Q1",
+        "share_std": 0.4573281452658885,
+        "se": 0.08154805305040798,
+        "sources": 2,
+        "n": 38
+      },
+      {
+        "quarter": "2025-Q2",
+        "share_std": 0.4586251621271077,
+        "se": 0.07155127443337848,
+        "sources": 2,
+        "n": 48
+      },
+      {
+        "quarter": "2025-Q3",
+        "share_std": 0.24575707180345943,
+        "se": 0.03049232438349735,
+        "sources": 3,
+        "n": 168
+      },
+      {
+        "quarter": "2025-Q4",
+        "share_std": 0.272166173501575,
+        "se": 0.03443516926660435,
+        "sources": 3,
+        "n": 168
+      },
+      {
+        "quarter": "2026-Q1",
+        "share_std": 0.3298390436751276,
+        "se": 0.03691389873146738,
+        "sources": 3,
+        "n": 174
+      },
+      {
+        "quarter": "2026-Q2",
+        "share_std": 0.23722447297124036,
+        "se": 0.03026518296586305,
+        "sources": 3,
+        "n": 183
+      },
+      {
+        "quarter": "2026-Q3",
+        "share_std": 0.35605968400351995,
+        "se": 0.02498968664282716,
+        "sources": 4,
+        "n": 377
+      },
+      {
+        "quarter": "2026-Q4",
+        "share_std": 0.29674501575888007,
+        "se": 0.02219184913020661,
+        "sources": 4,
+        "n": 970
+      }
+    ],
+    "monthly_players": [
+      {
+        "month": "2023-01",
+        "n": 7,
+        "complaints": 2,
+        "relevant": 7,
+        "share": 0.2857142857142857,
+        "avg_players": 428296.61,
+        "per_100k": 0.4669661055687553
+      },
+      {
+        "month": "2023-02",
+        "n": 1,
+        "complaints": 0,
+        "relevant": 1,
+        "share": 0.0,
+        "avg_players": 401847.04,
+        "per_100k": 0.0
+      },
+      {
+        "month": "2023-03",
+        "n": 97,
+        "complaints": 20,
+        "relevant": 97,
+        "share": 0.20618556701030927,
+        "avg_players": 418744.49,
+        "per_100k": 4.776182248989115
+      },
+      {
+        "month": "2023-04",
+        "n": 99,
+        "complaints": 16,
+        "relevant": 99,
+        "share": 0.16161616161616163,
+        "avg_players": 429226.47,
+        "per_100k": 3.7276359027904316
+      },
+      {
+        "month": "2023-05",
+        "n": 4,
+        "complaints": 3,
+        "relevant": 4,
+        "share": 0.75,
+        "avg_players": 433220.69,
+        "per_100k": 0.6924877018223669
+      },
+      {
+        "month": "2023-06",
+        "n": 1,
+        "complaints": 0,
+        "relevant": 1,
+        "share": 0.0,
+        "avg_players": 421336.42,
+        "per_100k": 0.0
+      },
+      {
+        "month": "2023-07",
+        "n": 10,
+        "complaints": 7,
+        "relevant": 10,
+        "share": 0.7,
+        "avg_players": 438510.22,
+        "per_100k": 1.5963139924082046
+      },
+      {
+        "month": "2023-08",
+        "n": 3,
+        "complaints": 0,
+        "relevant": 3,
+        "share": 0.0,
+        "avg_players": 444319.24,
+        "per_100k": 0.0
+      },
+      {
+        "month": "2023-09",
+        "n": 106,
+        "complaints": 22,
+        "relevant": 106,
+        "share": 0.20754716981132076,
+        "avg_players": 437273.4,
+        "per_100k": 5.031177290912276
+      },
+      {
+        "month": "2023-10",
+        "n": 101,
+        "complaints": 23,
+        "relevant": 101,
+        "share": 0.22772277227722773,
+        "avg_players": 435620.98,
+        "per_100k": 5.279819167570855
+      },
+      {
+        "month": "2023-11",
+        "n": 31,
+        "complaints": 17,
+        "relevant": 31,
+        "share": 0.5483870967741935,
+        "avg_players": 433727.63,
+        "per_100k": 3.9195105001726547
+      },
+      {
+        "month": "2023-12",
+        "n": 32,
+        "complaints": 21,
+        "relevant": 32,
+        "share": 0.65625,
+        "avg_players": 435517.65,
+        "per_100k": 4.821848207529591
+      },
+      {
+        "month": "2024-01",
+        "n": 10,
+        "complaints": 4,
+        "relevant": 10,
+        "share": 0.4,
+        "avg_players": 440229.36,
+        "per_100k": 0.9086172716876494
+      },
+      {
+        "month": "2024-02",
+        "n": 6,
+        "complaints": 2,
+        "relevant": 6,
+        "share": 0.3333333333333333,
+        "avg_players": 427922.41,
+        "per_100k": 0.4673744476247458
+      },
+      {
+        "month": "2024-03",
+        "n": 3,
+        "complaints": 1,
+        "relevant": 3,
+        "share": 0.3333333333333333,
+        "avg_players": 428918.55,
+        "per_100k": 0.233144497947221
+      },
+      {
+        "month": "2024-04",
+        "n": 10,
+        "complaints": 5,
+        "relevant": 10,
+        "share": 0.5,
+        "avg_players": 456550.81,
+        "per_100k": 1.0951683559602052
+      },
+      {
+        "month": "2024-05",
+        "n": 15,
+        "complaints": 4,
+        "relevant": 15,
+        "share": 0.26666666666666666,
+        "avg_players": 512919.2,
+        "per_100k": 0.7798499256803021
+      },
+      {
+        "month": "2024-06",
+        "n": 10,
+        "complaints": 6,
+        "relevant": 10,
+        "share": 0.6,
+        "avg_players": 486674.34,
+        "per_100k": 1.2328572737161363
+      },
+      {
+        "month": "2024-07",
+        "n": 16,
+        "complaints": 9,
+        "relevant": 16,
+        "share": 0.5625,
+        "avg_players": 475393.65,
+        "per_100k": 1.8931679041148317
+      },
+      {
+        "month": "2024-08",
+        "n": 21,
+        "complaints": 10,
+        "relevant": 21,
+        "share": 0.47619047619047616,
+        "avg_players": 449798.09,
+        "per_100k": 2.223219756224398
+      },
+      {
+        "month": "2024-09",
+        "n": 12,
+        "complaints": 5,
+        "relevant": 12,
+        "share": 0.4166666666666667,
+        "avg_players": 426811.67,
+        "per_100k": 1.1714768717547017
+      },
+      {
+        "month": "2024-10",
+        "n": 11,
+        "complaints": 6,
+        "relevant": 11,
+        "share": 0.5454545454545454,
+        "avg_players": 410681.51,
+        "per_100k": 1.4609861544533622
+      },
+      {
+        "month": "2024-11",
+        "n": 11,
+        "complaints": 2,
+        "relevant": 11,
+        "share": 0.18181818181818182,
+        "avg_players": 454956.21,
+        "per_100k": 0.43960274770180624
+      },
+      {
+        "month": "2024-12",
+        "n": 12,
+        "complaints": 8,
+        "relevant": 12,
+        "share": 0.6666666666666666,
+        "avg_players": 437635.69,
+        "per_100k": 1.828004475594758
+      },
+      {
+        "month": "2025-01",
+        "n": 10,
+        "complaints": 5,
+        "relevant": 10,
+        "share": 0.5,
+        "avg_players": 446491.16,
+        "per_100k": 1.1198429998031765
+      },
+      {
+        "month": "2025-02",
+        "n": 13,
+        "complaints": 7,
+        "relevant": 13,
+        "share": 0.5384615384615384,
+        "avg_players": 431748.69,
+        "per_100k": 1.6213135470080986
+      },
+      {
+        "month": "2025-03",
+        "n": 15,
+        "complaints": 8,
+        "relevant": 15,
+        "share": 0.5333333333333333,
+        "avg_players": 402851.23,
+        "per_100k": 1.9858447496858829
+      },
+      {
+        "month": "2025-04",
+        "n": 11,
+        "complaints": 5,
+        "relevant": 11,
+        "share": 0.45454545454545453,
+        "avg_players": 393173.22,
+        "per_100k": 1.2717041104681546
+      },
+      {
+        "month": "2025-05",
+        "n": 21,
+        "complaints": 9,
+        "relevant": 21,
+        "share": 0.42857142857142855,
+        "avg_players": 408987.68,
+        "per_100k": 2.2005552832300475
+      },
+      {
+        "month": "2025-06",
+        "n": 16,
+        "complaints": 8,
+        "relevant": 16,
+        "share": 0.5,
+        "avg_players": 411123.31,
+        "per_100k": 1.945888205657811
+      },
+      {
+        "month": "2025-07",
+        "n": 25,
+        "complaints": 13,
+        "relevant": 25,
+        "share": 0.52,
+        "avg_players": 426672.67,
+        "per_100k": 3.0468321301197943
+      },
+      {
+        "month": "2025-08",
+        "n": 22,
+        "complaints": 9,
+        "relevant": 22,
+        "share": 0.4090909090909091,
+        "avg_players": 532355.19,
+        "per_100k": 1.6906005931866654
+      },
+      {
+        "month": "2025-09",
+        "n": 121,
+        "complaints": 26,
+        "relevant": 121,
+        "share": 0.21487603305785125,
+        "avg_players": 580820.63,
+        "per_100k": 4.476425019545191
+      },
+      {
+        "month": "2025-10",
+        "n": 126,
+        "complaints": 32,
+        "relevant": 126,
+        "share": 0.25396825396825395,
+        "avg_players": 538998.03,
+        "per_100k": 5.936941921661568
+      },
+      {
+        "month": "2025-11",
+        "n": 24,
+        "complaints": 11,
+        "relevant": 24,
+        "share": 0.4583333333333333,
+        "avg_players": 583743.77,
+        "per_100k": 1.8843884192545644
+      },
+      {
+        "month": "2025-12",
+        "n": 18,
+        "complaints": 6,
+        "relevant": 18,
+        "share": 0.3333333333333333,
+        "avg_players": 594289.94,
+        "per_100k": 1.0096082057185758
+      },
+      {
+        "month": "2026-01",
+        "n": 25,
+        "complaints": 13,
+        "relevant": 25,
+        "share": 0.52,
+        "avg_players": 569324.18,
+        "per_100k": 2.2834090763543538
+      },
+      {
+        "month": "2026-02",
+        "n": 31,
+        "complaints": 16,
+        "relevant": 31,
+        "share": 0.5161290322580645,
+        "avg_players": 597009.82,
+        "per_100k": 2.680022918215985
+      },
+      {
+        "month": "2026-03",
+        "n": 118,
+        "complaints": 29,
+        "relevant": 118,
+        "share": 0.2457627118644068,
+        "avg_players": 477855.57,
+        "per_100k": 6.0687793175666025
+      },
+      {
+        "month": "2026-04",
+        "n": 122,
+        "complaints": 21,
+        "relevant": 122,
+        "share": 0.1721311475409836,
+        "avg_players": 425918.58,
+        "per_100k": 4.930519819069644
+      },
+      {
+        "month": "2026-05",
+        "n": 22,
+        "complaints": 11,
+        "relevant": 22,
+        "share": 0.5,
+        "avg_players": 422693.28,
+        "per_100k": 2.6023598009412403
+      },
+      {
+        "month": "2026-06",
+        "n": 39,
+        "complaints": 15,
+        "relevant": 39,
+        "share": 0.38461538461538464,
+        "avg_players": 466001.97,
+        "per_100k": 3.218870512500194
+      },
+      {
+        "month": "2026-07",
+        "n": 38,
+        "complaints": 22,
+        "relevant": 38,
+        "share": 0.5789473684210527,
+        "avg_players": 545528.29,
+        "per_100k": 4.032788107102566
+      },
+      {
+        "month": "2026-08",
+        "n": 66,
+        "complaints": 35,
+        "relevant": 66,
+        "share": 0.5303030303030303,
+        "avg_players": 617077.9,
+        "per_100k": 5.671893289323762
+      },
+      {
+        "month": "2026-09",
+        "n": 273,
+        "complaints": 75,
+        "relevant": 273,
+        "share": 0.27472527472527475,
+        "avg_players": 571294.32,
+        "per_100k": 13.128084312128292
+      },
+      {
+        "month": "2026-10",
+        "n": 970,
+        "complaints": 213,
+        "relevant": 970,
+        "share": 0.21958762886597938,
+        "avg_players": NaN,
+        "per_100k": NaN
+      }
+    ]
+  },
+  "players_corr": {
+    "rho": 0.086,
+    "p": 0.5739173645816559,
+    "n": 45
+  },
+  "online_dips": {
+    "months": [
+      {
+        "month": "2024-08",
+        "change_pct": -5.4,
+        "n": 21,
+        "share": 0.4762
+      },
+      {
+        "month": "2025-10",
+        "change_pct": -7.2,
+        "n": 126,
+        "share": 0.254
+      },
+      {
+        "month": "2026-03",
+        "change_pct": -20.0,
+        "n": 118,
+        "share": 0.2458
+      },
+      {
+        "month": "2026-04",
+        "change_pct": -10.9,
+        "n": 122,
+        "share": 0.1721
+      },
+      {
+        "month": "2026-09",
+        "change_pct": -7.4,
+        "n": 273,
+        "share": 0.2747
+      }
+    ],
+    "dip_share": 0.25303030303030305,
+    "other_share": 0.3322222222222222,
+    "test": {
+      "p": 0.0007348075779358698,
+      "z": -3.376,
+      "diff": -0.0792,
+      "ci": [
+        -0.1244,
+        -0.0339
+      ]
+    }
+  },
+  "trend": {
+    "mann_kendall": {
+      "n": 16,
+      "s": 6,
+      "tau": 0.05,
+      "z": 0.225,
+      "p": 0.8218916912511594,
+      "trend": "no significant trend"
+    },
+    "ols_per_quarter": {
+      "n": 16,
+      "slope": 0.001227,
+      "se": 0.007572,
+      "ci": [
+        -0.013614,
+        0.016068
+      ],
+      "p": 0.8735839051254704,
+      "intercept": 0.3337,
+      "hac_lags": 3
+    },
+    "bootstrap_ci": [
+      -0.013713003168519223,
+      0.013379600896334273
+    ],
+    "first_share": 0.20952380952380953,
+    "last_share": 0.21958762886597938,
+    "delta_pp": 1.0063819342169849
+  },
+  "trend_core": {
+    "sources": [
+      "GitHub (Dota 2 tracker)",
+      "Steam Community"
+    ],
+    "quarters": 16,
+    "n": 1028,
+    "mann_kendall": {
+      "n": 16,
+      "s": 6,
+      "tau": 0.05,
+      "z": 0.225,
+      "p": 0.8218916912511594,
+      "trend": "no significant trend"
+    },
+    "ols": {
+      "n": 16,
+      "slope": 0.000937,
+      "se": 0.002851,
+      "ci": [
+        -0.00465,
+        0.006524
+      ],
+      "p": 0.7471732876791126,
+      "intercept": 0.4423,
+      "hac_lags": 3
+    },
+    "bootstrap": [
+      -0.00885640500434731,
+      0.009401319759782359
+    ],
+    "first": 0.4,
+    "last": 0.3691588785046729
+  },
+  "years": {
+    "2023": {
+      "n": 492,
+      "complaints": 131,
+      "share": 0.266260162601626,
+      "ci": [
+        0.2291243180540517,
+        0.30701773721694064
+      ]
+    },
+    "2024": {
+      "n": 137,
+      "complaints": 62,
+      "share": 0.45255474452554745,
+      "ci": [
+        0.3716354277645988,
+        0.536062205383675
+      ]
+    },
+    "2025": {
+      "n": 422,
+      "complaints": 139,
+      "share": 0.3293838862559242,
+      "ci": [
+        0.28625768877979474,
+        0.3755882939979579
+      ]
+    },
+    "2026": {
+      "n": 1704,
+      "complaints": 450,
+      "share": 0.2640845070422535,
+      "ci": [
+        0.24370055240340843,
+        0.28552975416428567
+      ]
+    }
+  },
+  "first_vs_last_year": {
+    "p": 0.9232254018502535,
+    "z": -0.096,
+    "diff": -0.0022,
+    "ci": [
+      -0.0465,
+      0.0421
+    ]
+  },
+  "source_test": {
+    "chi2": 244.534,
+    "dof": 3,
+    "p": 9.95178147696264e-53,
+    "cramers_v": 0.298
+  },
+  "themes": {
+    "bans": {
+      "n": 38,
+      "share_of_corpus": 0.0138,
+      "complaint_share": 0.5
+    },
+    "behavior_score": {
+      "n": 1680,
+      "share_of_corpus": 0.6098,
+      "complaint_share": 0.2393
+    },
+    "communication_score": {
+      "n": 264,
+      "share_of_corpus": 0.0958,
+      "complaint_share": 0.3106
+    },
+    "false_reports": {
+      "n": 10,
+      "share_of_corpus": 0.0036,
+      "complaint_share": 0.7
+    },
+    "low_priority": {
+      "n": 127,
+      "share_of_corpus": 0.0461,
+      "complaint_share": 0.4803
+    },
+    "matchmaking": {
+      "n": 57,
+      "share_of_corpus": 0.0207,
+      "complaint_share": 0.3333
+    },
+    "mute_chat": {
+      "n": 129,
+      "share_of_corpus": 0.0468,
+      "complaint_share": 0.3798
+    },
+    "other": {
+      "n": 207,
+      "share_of_corpus": 0.0751,
+      "complaint_share": 0.2802
+    },
+    "overwatch": {
+      "n": 79,
+      "share_of_corpus": 0.0287,
+      "complaint_share": 0.4051
+    },
+    "toxicity": {
+      "n": 164,
+      "share_of_corpus": 0.0595,
+      "complaint_share": 0.3232
+    }
+  },
+  "patch_events": {
+    "events": [
+      {
+        "date": "2023-08-31",
+        "title": "New update for Dota 2 might pull me back in, with new reporting and matchmaking",
+        "window_n": 14,
+        "window_share": 0.2143,
+        "baseline_share": 0.2842,
+        "diff_pp": -6.99,
+        "p": 0.5627533625595391
+      }
+    ],
+    "n_events": 1
+  },
+  "validation": {
+    "status": "ok",
+    "n": 120,
+    "metrics": {
+      "tp": 27,
+      "tn": 49,
+      "fp": 10,
+      "fn": 34,
+      "n": 120,
+      "n_pos": 61,
+      "n_neg": 59,
+      "sensitivity": 0.44148823715783236,
+      "specificity": 0.8305197381455315,
+      "ppv": 0.7287820009573959,
+      "npv": 0.5904290178626872,
+      "accuracy": 0.6329856546927487,
+      "f1": 0.5498707399296574,
+      "sens_ci": [
+        0.3319445656200092,
+        0.5601815054862465
+      ],
+      "spec_ci": [
+        0.7367558370589999,
+        0.9180590479478166
+      ],
+      "ppv_ci": [
+        0.5939678129804393,
+        0.8607095571558868
+      ]
+    },
+    "raw_metrics": {
+      "tp": 27,
+      "tn": 49,
+      "fp": 10,
+      "fn": 34,
+      "n": 120,
+      "n_pos": 61,
+      "n_neg": 59,
+      "sensitivity": 0.4426229508196721,
+      "specificity": 0.8305084745762712,
+      "ppv": 0.7297297297297297,
+      "npv": 0.5903614457831325,
+      "accuracy": 0.6333333333333333,
+      "f1": 0.5510204081632653,
+      "sens_ci": [
+        0.3250780552148288,
+        0.5669663230685612
+      ],
+      "spec_ci": [
+        0.71536779263512,
+        0.9052416065081895
+      ],
+      "ppv_ci": [
+        0.5702183167528573,
+        0.8460253848895091
+      ]
+    },
+    "weighting": "source post-stratification to current corpus counts",
+    "kappa": 0.2703283039902868,
+    "kappa_ci": [
+      0.12916933486933352,
+      0.4140812562747466
+    ],
+    "observed_prevalence": 0.2838475499092559,
+    "corrected_prevalence": 0.4204556426231123,
+    "correction_delta_pp": 13.660809271385638,
+    "design_based": {
+      "prevalence": 0.507758582405975,
+      "se": 0.041104108093798546,
+      "ci": [
+        0.4271945305421299,
+        0.5883226342698202
+      ],
+      "strata": [
+        {
+          "source": "Dota2.ru",
+          "N_h": 93,
+          "n_h": 4,
+          "p_h": 0.5,
+          "weight": 0.0338
+        },
+        {
+          "source": "GitHub (Dota 2 tracker)",
+          "N_h": 704,
+          "n_h": 31,
+          "p_h": 0.7419,
+          "weight": 0.2555
+        },
+        {
+          "source": "Reddit",
+          "N_h": 1634,
+          "n_h": 71,
+          "p_h": 0.338,
+          "weight": 0.5931
+        },
+        {
+          "source": "Steam Community",
+          "N_h": 324,
+          "n_h": 14,
+          "p_h": 0.8571,
+          "weight": 0.1176
+        }
+      ],
+      "leave_one_source_out": [
+        {
+          "omitted": "Dota2.ru",
+          "prevalence": 0.5079977460555973,
+          "delta_pp": 0.02391636496222871
+        },
+        {
+          "omitted": "GitHub (Dota 2 tracker)",
+          "prevalence": 0.4273488054607509,
+          "delta_pp": -8.040977694522416
+        },
+        {
+          "omitted": "Reddit",
+          "prevalence": 0.7551275646743979,
+          "delta_pp": 24.736898226842285
+        },
+        {
+          "omitted": "Steam Community",
+          "prevalence": 0.4611639654463184,
+          "delta_pp": -4.659461695965667
+        }
+      ],
+      "max_loo_delta_pp": 24.736898226842285
+    }
+  },
+  "sensitivity": {
+    "base_share": 0.2838475499092559,
+    "without_Dota2.ru": {
+      "n": 2662,
+      "share": 0.28512396694214875,
+      "delta_pp": 0.12764170328928293
+    },
+    "without_GitHub (Dota 2 tracker)": {
+      "n": 2051,
+      "share": 0.21599219892735252,
+      "delta_pp": -6.78553509819034
+    },
+    "without_Reddit": {
+      "n": 1121,
+      "share": 0.43710972346119537,
+      "delta_pp": 15.326217355193943
+    },
+    "without_Steam Community": {
+      "n": 2431,
+      "share": 0.2690250925545043,
+      "delta_pp": -1.4822457354751628
+    },
+    "ru_vs_en": {
+      "p": 0.45445848134449274,
+      "z": -0.748,
+      "diff": -0.0312,
+      "ci": [
+        -0.1104,
+        0.0479
+      ]
+    },
+    "posts_vs_comments": {
+      "p": 0.0,
+      "z": 13.223,
+      "diff": 0.2572,
+      "ci": [
+        0.2168,
+        0.2975
+      ]
+    }
+  },
+  "coverage": {
+    "by_source": {
+      "Dota2.ru": {
+        "docs": 260,
+        "relevant": 93,
+        "first": "2026-07-31",
+        "last": "2026-10-23",
+        "months_with_data": 4
+      },
+      "GitHub (Dota 2 tracker)": {
+        "docs": 812,
+        "relevant": 704,
+        "first": "2023-01-08",
+        "last": "2026-10-22",
+        "months_with_data": 44
+      },
+      "Reddit": {
+        "docs": 1714,
+        "relevant": 1634,
+        "first": "2023-03-19",
+        "last": "2026-10-23",
+        "months_with_data": 10
+      },
+      "Steam Community": {
+        "docs": 478,
+        "relevant": 324,
+        "first": "2023-01-03",
+        "last": "2026-10-23",
+        "months_with_data": 42
+      }
+    },
+    "serp": {
+      "bing": {
+        "queries": 8,
+        "blocked_queries": 0,
+        "results": 80,
+        "status": "ok"
+      },
+      "duckduckgo": {
+        "queries": 8,
+        "blocked_queries": 8,
+        "results": 0,
+        "status": "blocked"
+      },
+      "google": {
+        "queries": 8,
+        "blocked_queries": 8,
+        "results": 0,
+        "status": "blocked"
+      },
+      "yandex": {
+        "queries": 8,
+        "blocked_queries": 8,
+        "results": 0,
+        "status": "blocked"
+      }
+    },
+    "months": {
+      "Dota2.ru": 0.087,
+      "GitHub (Dota 2 tracker)": 0.957,
+      "Reddit": 0.217,
+      "Steam Community": 0.913
+    }
+  },
+  "hashes": {
+    "corpus_sha256": "e19eddeac573e999ec100bfa47b2ed4f",
+    "generated_at": "2026-10-24T16:05:27+00:00"
+  }
+}

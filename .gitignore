@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
+.pytest_cache/
+.ipynb_checkpoints/
+logs/
+*.egg-info/
+.coverage
+.DS_Store
+Thumbs.db
+data/dota_analysis.sqlite
+data/dota_analysis.sqlite-wal
+data/dota_analysis.sqlite-shm
+data/host_cooldowns.json
+data/collection_status.json
